@@ -1,0 +1,171 @@
+body{
+    color: #ffffff;
+    background-color: #7b1e1e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+#inicial{
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    color: #190335;
+    font-size: 18px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#ima{
+    width: 100%;
+    height: 90%;
+}
+#im{
+    width: 50%;
+    height: 40%;
+}
+#navegaçao{
+    display: flex;
+    background-color: #1e2b4f;
+    justify-content: safe;
+    padding-left: 15px;
+        border-radius: 1vw;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    color: #ffff;
+}
+ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#container{
+    image-resolution: 2px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #1e2b4f;
+    height: 25vw;
+    width: 100%;
+    background-color: #f5e8d5;
+    font-size: 18px;
+    gap: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    height: 20vw;
+    text-align: center;
+}
+img{
+    width: 100px;
+}
+#butao_zap{
+    text-decoration: none;
+    color: #ffffff;
+}
+.icone{
+    width: 20px;
+    color: #ffff;
+}
+#termos{
+    width: 100%;
+    padding: 10px;
+    background: #f5e8d5;
+    color: #1e2b4f;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+    color: #ffffff;
+    background-color: #7b1e1e;
+    font-family: sans-serif;
+}
+#inicial{
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    color: #190335;
+    font-size: 18px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#ima{
+    width: 100%;
+    height: 90%;
+}
+#im{
+    width: 50%;
+    height: 40%;
+}
+#navegaçao{
+    display: flex;
+    background-color: #1e2b4f;
+    justify-content: safe;
+    padding-left: 15px;
+        border-radius: 1vw;
+}
+}
+ul{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    color: #ffff;
+}
+ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#container{
+    image-resolution: 2px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #1e2b4f;
+    height: 130vw;
+    width: 100%;
+    background-color: #f5e8d5;
+    font-size: 18px;
+    padding: 10px;
+}
+.container{
+    gap: 30px;
+    display: flex;
+    width: 70vw;
+    height: 20vw;
+    justify-content:space-evenly ;
+    padding: 10px;
+}
+img{
+    width: 100px;
+}
+#butao_zap{
+    text-decoration: none;
+    color: #ffffff;
+}
+.icone{
+    width: 20px;
+    color: #ffff;
+}
+#termos{
+    padding: 10px;
+    background: #f5e8d5;
+    color: #1e2b4f;
+    text-align: center;
+}
+}
