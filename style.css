@@ -91,7 +91,7 @@ img {
   color: #1e2b4f;
   text-align: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .menu {
     display: none;
     flex-direction: column;
